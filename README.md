@@ -1,4 +1,4 @@
-# AI-Powered Cloud Attack Simulation and Detection Framework
+# Attacking Cloud Infrastructure and Detecting with AI
 
 ## Overview
 
