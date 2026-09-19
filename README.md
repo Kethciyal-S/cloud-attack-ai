@@ -6,8 +6,6 @@ An AI-powered framework that simulates cloud attacks on AWS and detects them usi
 
 ## Project Structure
 
-## Project Structure
-
 - **ai/** — AI model + detection
   - train_model.py — Model training script
   - detect.py — Attack detection script
