@@ -7,24 +7,24 @@ An AI-powered framework that simulates cloud attacks on AWS and detects them usi
 ## Project Structure
 
 cloud-attack-ai/
-├── ai/                          # AI model + detection
-│   ├── train_model.py           # Model training script
-│   ├── detect.py                # Attack detection script
-│   ├── model.pkl                # Trained model (excluded from repo)
-│   └── cicids2017.csv           # Dataset (excluded from repo)
-├── attack/                      # Attack simulation
-│   └── stratus.exe              # Stratus Red Team (excluded)
-├── docs/                        # Documentation
-│   └── screenshots/             # 6 demo screenshots
-│       ├── 01_s3_bucket_deleted.png
-│       ├── 02_iam_weak_role.png
-│       ├── 03_security_group_open.png
-│       ├── 04_cloudtrail_events.png
-│       ├── 05_stratus_attack.png
-│       └── 06_ai_detection.png
-├── terraform/                   # Infrastructure as Code
-├── .gitignore
-└── README.md
+- ai/                          # AI model + detection
+-train_model.py                # Model training script
+   ── detect.py                # Attack detection script
+   ── model.pkl                # Trained model (excluded from repo)
+      ── cicids2017.csv           # Dataset (excluded from repo)
+   ── attack/                      # Attack simulation
+      ── stratus.exe              # Stratus Red Team (excluded)
+   ── docs/                        # Documentation
+      ── screenshots/             # 6 demo screenshots
+       ├── 01_s3_bucket_deleted.png
+       ├── 02_iam_weak_role.png
+       ├── 03_security_group_open.png
+       ├── 04_cloudtrail_events.png
+       ├── 05_stratus_attack.png
+       └── 06_ai_detection.png
+── terraform/                   # Infrastructure as Code
+── .gitignore
+── README.md
 
 ## Technologies Used
 
