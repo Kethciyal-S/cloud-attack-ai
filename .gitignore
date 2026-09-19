@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+venv_new/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Sensitive files
+.env
+*.pem
+*.key
+
+# Large files
+cicids2017.csv
+attack_logs.json
+model.pkl
+stratus.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
