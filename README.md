@@ -130,7 +130,7 @@ python detect.py
 
 ## Author
 
-**[Kethciyal-S]**
+**Kethciyal-S**
 
 ## License
 
